@@ -2,14 +2,15 @@
 
 This document provides quick reference guides for important topics related to Airflow:
 
-- [Recommended Project Structure for Airflow](#recommended-project-structure-for-airflow)
-- [Running Docker Containers using DockerOperator](#running-docker-containers-using-dockeroperator)
-- [Airflow Batch Jobs vs. Long-Running Services (Port Exposure)](#airflow-batch-jobs-vs-long-running-services-port-exposure)
-- [Purpose of the Compose Folder](#purpose-of-the-compose-folder)
+1. [Recommended Project Structure for Airflow](#recommended-project-structure-for-airflow)
+2. [Purpose of the Compose Folder](#purpose-of-the-compose-folder)
+3. [Airflow Batch Jobs vs. Long-Running Services (Port Exposure)](#airflow-batch-jobs-vs-long-running-services-port-exposure)
+4. [Running Docker Containers using DockerOperator](#running-docker-containers-using-dockeroperator)
+5. [Docker ENTRYPOINT vs. CMD in Airflow](#docker-entrypoint-vs-cmd-in-airflow)
 
 ---
 
-## 📁 Recommended Project Structure for Airflow
+## 1. 📁 Recommended Project Structure for Airflow
 
 ### **Ideal Structure:**
 
@@ -43,63 +44,33 @@ This ensures clean separation, maintainability, and scalability of your Airflow-
 
 ---
 
-## 🚀 Running Docker Containers using DockerOperator
+## 2. 📂 Purpose of the Compose Folder
 
-### **Step-by-Step Guide:**
+### **Why Use the Compose Folder?**
 
-#### **1. Prepare your Docker Image**
+The `compose/` folder typically contains your Docker Compose files (`docker-compose.yaml`) and related configuration. It's a common and practical way to separate Airflow's Docker deployment from your DAGs, logs, and other resources.
 
-Build your Docker image locally:
+### **Typical Structure:**
 
-```bash
-docker build -t your_image_name:latest .
+```
+compose/
+├── docker-compose.yaml      # Defines Airflow services
+├── dags/                    # Airflow monitors for DAG definitions
+├── logs/                    # Airflow logging directory
+├── plugins/                 # Airflow plugins (optional)
+└── config/                  # Additional configurations (optional)
 ```
 
-#### **2. Define DockerOperator in your Airflow DAG**
+### **Benefits:**
 
-```python
-from airflow import DAG
-from airflow.providers.docker.operators.docker import DockerOperator
-from datetime import datetime
-
-with DAG(
-    'docker_example_dag',
-    start_date=datetime(2024, 1, 1),
-    schedule_interval='@daily',
-    catchup=False
-) as dag:
-
-    run_container = DockerOperator(
-        task_id='run_my_container',
-        image='your_image_name:latest',
-        command='python script.py',
-        api_version='auto',
-        auto_remove=True,
-        docker_url='unix://var/run/docker.sock',
-        network_mode='bridge',
-        volumes=['/host/path:/container/path'],  # Docker -v
-        environment={'MY_ENV_VAR': 'value'},     # Docker -e
-        working_dir='/app'                       # Docker -w
-    )
-```
-
-### **Mapping Docker CLI to DockerOperator:**
-
-| Docker CLI                      | DockerOperator Parameter          | Example                                      |
-|---------------------------------|-----------------------------------|----------------------------------------------|
-| `-v /host/path:/cont/path`      | `volumes`                         | `volumes=['/host/path:/cont/path']`          |
-| `-e VAR=value`                  | `environment`                     | `environment={'VAR': 'value'}`               |
-| `--network=my_network`          | `network_mode`                    | `network_mode='my_network'`                  |
-| `-w /app`                       | `working_dir`                     | `working_dir='/app'`                         |
-
-### **Key Points:**
-
-- Ensure the Docker socket (`docker.sock`) is accessible from your Airflow environment.
-- DockerOperator parameters (`volumes`, `environment`, `network_mode`, `working_dir`) directly match Docker CLI arguments.
+- Clear organization and separation of responsibilities.
+- Easy maintenance and scalability.
+- Convenient deployment with `docker compose up`.
+- Version-control friendly.
 
 ---
 
-## 🚩 Airflow Batch Jobs vs. Long-Running Services (Port Exposure)
+## 3. 🚩 Airflow Batch Jobs vs. Long-Running Services (Port Exposure)
 
 ### **Concept Overview:**
 
@@ -134,30 +105,144 @@ with DAG(
 
 ---
 
-## 📂 Purpose of the Compose Folder
 
-### **Why Use the Compose Folder?**
 
-The `compose/` folder typically contains your Docker Compose files (`docker-compose.yaml`) and related configuration. It's a common and practical way to separate Airflow's Docker deployment from your DAGs, logs, and other resources.
+## 4. 🚀 Running Docker Containers using DockerOperator
 
-### **Typical Structure:**
+### **Overview:**
+
+To effectively run multiple tasks (Extract → Transform → Load) independently using a single Docker image, follow this structure:
+
+### **Step-by-Step Example:**
+
+**Your Python project (`main.py`):**
+
+```python
+import sys
+
+def extract():
+    print('Extracting data...')
+
+def transform():
+    print('Transforming data...')
+
+def load():
+    print('Loading data...')
+
+if __name__ == '__main__':
+    step = sys.argv[1]
+
+    if step == 'extract':
+        extract()
+    elif step == 'transform':
+        transform()
+    elif step == 'load':
+        load()
+    else:
+        raise ValueError('Unknown step.')
+```
+
+**Dockerized project (`Dockerfile`):**
+
+```Dockerfile
+FROM python:3.12-slim
+WORKDIR /app
+COPY . .
+ENTRYPOINT ["python", "main.py"]
+```
+
+**Running Docker containers independently:**
+
+```bash
+docker run my_etl_image extract
+docker run my_etl_image transform
+docker run my_etl_image load
+```
+
+### **Airflow DAG definition using separate DockerOperators (Best practice):**
+
+```python
+from airflow import DAG
+from airflow.providers.docker.operators.docker import DockerOperator
+from datetime import datetime
+
+default_docker_config = {
+    'image': 'my_etl_image:latest',
+    'api_version': 'auto',
+    'auto_remove': True,
+    'docker_url': 'unix://var/run/docker.sock',
+    'network_mode': 'bridge',
+}
+
+with DAG(
+    'etl_pipeline',
+    start_date=datetime(2024, 1, 1),
+    schedule_interval='@daily',
+    catchup=False
+) as dag:
+
+    extract_task = DockerOperator(
+        task_id='extract',
+        command='extract',
+        **default_docker_config
+    )
+
+    transform_task = DockerOperator(
+        task_id='transform',
+        command='transform',
+        **default_docker_config
+    )
+
+    load_task = DockerOperator(
+        task_id='load',
+        command='load',
+        **default_docker_config
+    )
+
+    extract_task >> transform_task >> load_task
 
 ```
-compose/
-├── docker-compose.yaml      # Defines Airflow services
-├── dags/                    # Airflow monitors for DAG definitions
-├── logs/                    # Airflow logging directory
-├── plugins/                 # Airflow plugins (optional)
-└── config/                  # Additional configurations (optional)
-```
 
-### **Benefits:**
+⚠️ **Not Recommended:**
+Running all steps as a single task defeats Airflow advantages like individual retries, granular monitoring, and easier debugging.
 
-- Clear organization and separation of responsibilities.
-- Easy maintenance and scalability.
-- Convenient deployment with `docker compose up`.
-- Version-control friendly.
+🚀 **Recommended Approach Summary:**
+- Dockerize your project, enabling steps to run independently.
+- Define separate Airflow tasks to execute each step separately.
 
 ---
 
-**Now you have these key Airflow topics clearly documented and easily accessible!**
+# 5. 🐳 Docker ENTRYPOINT vs. CMD in Airflow
+
+### **Key Concepts:**
+
+- **ENTRYPOINT** defines the executable or script Docker runs by default.
+- **CMD** provides default arguments to the ENTRYPOINT and can be overridden at runtime.
+
+### **Practical Usage in Airflow:**
+
+- Define ENTRYPOINT clearly in your Dockerfile:
+
+```Dockerfile
+ENTRYPOINT ["python", "main.py"]
+```
+
+- CMD is optional; Airflow's DockerOperator provides the `command` argument to override CMD:
+
+```python
+extract_task = DockerOperator(
+    task_id='extract',
+    image='my_image:latest',
+    command='extract',  # overrides CMD
+)
+```
+
+- Using Airflow's `command` parameter to pass arguments explicitly to your Docker container is standard practice and recommended.
+
+### **Recommended Approach:**
+
+- Dockerize your project clearly specifying ENTRYPOINT.
+- Use Airflow to provide runtime arguments explicitly via the DockerOperator command parameter.
+- Avoid embedding complex logic or multiple commands directly within Dockerfiles to maintain clarity and flexibility.
+
+---

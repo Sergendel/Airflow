@@ -2371,3 +2371,1123 @@
 [2025-03-28T16:21:12.506+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:21:12.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-28T16:21:12.532+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:21:12.532+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
 [2025-03-28T16:21:12.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.426 seconds
+[2025-03-28T16:21:43.223+0000] {processor.py:186} INFO - Started process (PID=4133) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:21:43.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:21:43.228+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:21:43.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:21:43.613+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:21:43.667+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:21:43.666+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:21:43.707+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:21:43.706+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:21:43.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.532 seconds
+[2025-03-28T16:22:13.863+0000] {processor.py:186} INFO - Started process (PID=4147) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:22:13.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:22:13.867+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:22:13.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:22:14.244+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:22:14.268+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:22:14.268+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:22:14.291+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:22:14.291+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:22:14.307+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.455 seconds
+[2025-03-28T16:22:45.308+0000] {processor.py:186} INFO - Started process (PID=4162) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:22:45.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:22:45.336+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:22:45.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:22:45.868+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:22:45.896+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:22:45.896+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:22:45.922+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:22:45.922+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:22:45.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.643 seconds
+[2025-03-28T16:23:16.031+0000] {processor.py:186} INFO - Started process (PID=4176) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:23:16.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:23:16.034+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:23:16.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:23:16.430+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:23:16.464+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:23:16.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:23:16.496+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:23:16.495+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:23:16.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.505 seconds
+[2025-03-28T16:23:47.046+0000] {processor.py:186} INFO - Started process (PID=4190) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:23:47.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:23:47.049+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:23:47.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:23:47.468+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:23:47.499+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:23:47.498+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:23:47.534+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:23:47.533+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:23:47.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.524 seconds
+[2025-03-28T16:24:17.889+0000] {processor.py:186} INFO - Started process (PID=4204) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:24:17.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:24:17.892+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:24:17.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:24:18.303+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:24:18.340+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:24:18.339+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:24:18.372+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:24:18.372+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:24:18.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.515 seconds
+[2025-03-28T16:24:49.133+0000] {processor.py:186} INFO - Started process (PID=4218) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:24:49.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:24:49.136+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:24:49.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:24:49.432+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:24:49.453+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:24:49.453+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:24:49.475+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:24:49.475+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:24:49.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.367 seconds
+[2025-03-28T16:25:20.316+0000] {processor.py:186} INFO - Started process (PID=4232) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:25:20.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:25:20.318+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:25:20.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:25:20.622+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:25:20.647+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:25:20.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:25:20.669+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:25:20.669+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:25:20.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.376 seconds
+[2025-03-28T16:25:51.188+0000] {processor.py:186} INFO - Started process (PID=4246) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:25:51.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:25:51.190+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:25:51.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:25:51.562+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:25:51.585+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:25:51.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:25:51.612+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:25:51.611+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:25:51.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.449 seconds
+[2025-03-28T16:26:22.306+0000] {processor.py:186} INFO - Started process (PID=4260) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:26:22.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:26:22.309+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:26:22.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:26:22.649+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:26:22.676+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:26:22.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:26:22.701+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:26:22.701+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:26:22.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.420 seconds
+[2025-03-28T16:26:53.655+0000] {processor.py:186} INFO - Started process (PID=4274) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:26:53.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:26:53.659+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:26:53.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:26:54.100+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:26:54.139+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:26:54.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:26:54.167+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:26:54.166+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:26:54.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.547 seconds
+[2025-03-28T16:27:25.127+0000] {processor.py:186} INFO - Started process (PID=4288) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:27:25.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:27:25.131+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:27:25.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:27:25.474+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:27:25.497+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:27:25.497+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:27:25.522+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:27:25.521+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:27:25.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.419 seconds
+[2025-03-28T16:27:56.363+0000] {processor.py:186} INFO - Started process (PID=4302) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:27:56.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:27:56.366+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:27:56.365+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:27:56.679+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:27:56.711+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:27:56.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:27:56.737+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:27:56.737+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:27:56.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.399 seconds
+[2025-03-28T16:28:26.903+0000] {processor.py:186} INFO - Started process (PID=4316) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:28:26.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:28:26.908+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:28:26.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:28:27.245+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:28:27.268+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:28:27.267+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:28:27.291+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:28:27.291+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:28:27.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.417 seconds
+[2025-03-28T16:28:57.591+0000] {processor.py:186} INFO - Started process (PID=4330) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:28:57.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:28:57.593+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:28:57.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:28:57.934+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:28:57.960+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:28:57.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:28:57.982+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:28:57.982+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:28:58.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.416 seconds
+[2025-03-28T16:29:28.578+0000] {processor.py:186} INFO - Started process (PID=4344) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:29:28.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:29:28.583+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:29:28.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:29:28.923+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:29:28.945+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:29:28.945+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:29:28.967+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:29:28.967+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:29:28.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.419 seconds
+[2025-03-28T16:29:59.058+0000] {processor.py:186} INFO - Started process (PID=4358) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:29:59.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:29:59.061+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:29:59.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:29:59.392+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:29:59.417+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:29:59.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:29:59.443+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:29:59.443+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:29:59.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.412 seconds
+[2025-03-28T16:30:30.340+0000] {processor.py:186} INFO - Started process (PID=4372) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:30:30.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:30:30.343+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:30:30.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:30:30.639+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:30:30.664+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:30:30.663+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:30:30.685+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:30:30.685+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:30:30.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.372 seconds
+[2025-03-28T16:31:01.517+0000] {processor.py:186} INFO - Started process (PID=4387) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:31:01.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:31:01.520+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:31:01.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:31:01.882+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:31:01.912+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:31:01.912+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:31:01.940+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:31:01.940+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:31:01.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.448 seconds
+[2025-03-28T16:31:32.225+0000] {processor.py:186} INFO - Started process (PID=4401) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:31:32.226+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:31:32.229+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:31:32.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:31:32.587+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:31:32.612+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:31:32.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:31:32.633+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:31:32.632+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:31:32.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.432 seconds
+[2025-03-28T16:32:03.010+0000] {processor.py:186} INFO - Started process (PID=4415) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:32:03.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:32:03.013+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:32:03.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:32:03.327+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:32:03.348+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:32:03.348+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:32:03.370+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:32:03.370+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:32:03.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.385 seconds
+[2025-03-28T16:32:33.693+0000] {processor.py:186} INFO - Started process (PID=4429) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:32:33.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:32:33.695+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:32:33.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:32:34.040+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:32:34.079+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:32:34.078+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:32:34.127+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:32:34.126+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:32:34.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.472 seconds
+[2025-03-28T16:33:04.951+0000] {processor.py:186} INFO - Started process (PID=4443) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:33:04.953+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:33:04.956+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:33:04.955+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:33:05.285+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:33:05.310+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:33:05.310+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:33:05.332+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:33:05.332+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:33:05.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.410 seconds
+[2025-03-28T16:33:35.655+0000] {processor.py:186} INFO - Started process (PID=4457) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:33:35.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:33:35.659+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:33:35.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:33:35.966+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:33:35.988+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:33:35.988+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:33:36.011+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:33:36.011+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:33:36.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.381 seconds
+[2025-03-28T16:34:06.874+0000] {processor.py:186} INFO - Started process (PID=4471) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:34:06.875+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:34:06.877+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:34:06.877+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:34:07.310+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:34:07.367+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:34:07.366+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:34:07.388+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:34:07.388+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:34:07.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.544 seconds
+[2025-03-28T16:34:38.404+0000] {processor.py:186} INFO - Started process (PID=4491) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:34:38.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:34:38.410+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:34:38.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:34:38.813+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:34:38.841+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:34:38.840+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:34:38.867+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:34:38.866+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:34:38.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.497 seconds
+[2025-03-28T16:35:09.616+0000] {processor.py:186} INFO - Started process (PID=4505) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:35:09.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:35:09.621+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:35:09.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:35:09.930+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:35:09.952+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:35:09.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:35:09.976+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:35:09.976+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:35:09.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.389 seconds
+[2025-03-28T16:35:40.198+0000] {processor.py:186} INFO - Started process (PID=4519) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:35:40.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:35:40.206+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:35:40.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:35:40.560+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:35:40.586+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:35:40.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:35:40.610+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:35:40.610+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:35:40.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.450 seconds
+[2025-03-28T16:36:10.935+0000] {processor.py:186} INFO - Started process (PID=4533) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:36:10.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:36:10.938+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:36:10.937+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:36:11.281+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:36:11.307+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:36:11.307+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:36:11.334+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:36:11.333+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:36:11.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.426 seconds
+[2025-03-28T16:36:41.626+0000] {processor.py:186} INFO - Started process (PID=4547) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:36:41.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:36:41.629+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:36:41.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:36:41.958+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:36:41.984+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:36:41.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:36:42.013+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:36:42.013+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:36:42.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.418 seconds
+[2025-03-28T16:37:12.552+0000] {processor.py:186} INFO - Started process (PID=4561) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:37:12.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:37:12.556+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:37:12.556+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:37:12.855+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:37:12.879+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:37:12.878+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:37:12.900+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:37:12.900+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:37:12.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.376 seconds
+[2025-03-28T16:37:43.745+0000] {processor.py:186} INFO - Started process (PID=4575) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:37:43.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:37:43.785+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:37:43.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:37:44.313+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:37:44.349+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:37:44.349+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:37:44.396+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:37:44.395+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:37:44.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.722 seconds
+[2025-03-28T16:38:14.623+0000] {processor.py:186} INFO - Started process (PID=4589) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:38:14.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:38:14.627+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:38:14.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:38:14.975+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:38:15.002+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:38:15.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:38:15.025+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:38:15.025+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:38:15.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.428 seconds
+[2025-03-28T16:38:45.460+0000] {processor.py:186} INFO - Started process (PID=4603) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:38:45.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:38:45.464+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:38:45.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:38:45.945+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:38:45.974+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:38:45.974+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:38:46.001+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:38:46.001+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:38:46.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.569 seconds
+[2025-03-28T16:39:16.237+0000] {processor.py:186} INFO - Started process (PID=4617) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:39:16.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:39:16.244+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:39:16.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:39:16.549+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:39:16.572+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:39:16.571+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:39:16.593+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:39:16.593+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:39:16.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.389 seconds
+[2025-03-28T16:39:47.635+0000] {processor.py:186} INFO - Started process (PID=4631) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:39:47.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:39:47.637+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:39:47.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:39:48.202+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:39:48.237+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:39:48.236+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:39:48.274+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:39:48.272+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:39:48.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.702 seconds
+[2025-03-28T16:40:18.703+0000] {processor.py:186} INFO - Started process (PID=4645) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:40:18.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:40:18.706+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:40:18.706+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:40:19.047+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:40:19.075+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:40:19.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:40:19.101+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:40:19.101+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:40:19.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.428 seconds
+[2025-03-28T16:40:49.186+0000] {processor.py:186} INFO - Started process (PID=4659) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:40:49.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:40:49.189+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:40:49.189+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:40:49.509+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:40:49.538+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:40:49.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:40:49.568+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:40:49.568+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:40:49.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.420 seconds
+[2025-03-28T16:41:19.857+0000] {processor.py:186} INFO - Started process (PID=4673) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:41:19.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:41:19.860+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:41:19.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:41:20.215+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:41:20.241+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:41:20.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:41:20.263+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:41:20.263+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:41:20.284+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.438 seconds
+[2025-03-28T16:41:50.572+0000] {processor.py:186} INFO - Started process (PID=4687) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:41:50.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:41:50.578+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:41:50.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:41:50.946+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:41:50.971+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:41:50.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:41:50.992+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:41:50.992+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:41:51.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.465 seconds
+[2025-03-28T16:42:21.849+0000] {processor.py:186} INFO - Started process (PID=4701) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:42:21.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:42:21.853+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:42:21.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:42:22.228+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:42:22.257+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:42:22.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:42:22.291+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:42:22.291+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:42:22.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.473 seconds
+[2025-03-28T16:42:52.649+0000] {processor.py:186} INFO - Started process (PID=4715) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:42:52.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:42:52.654+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:42:52.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:42:53.026+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:42:53.055+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:42:53.054+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:42:53.083+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:42:53.082+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:42:53.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.477 seconds
+[2025-03-28T16:43:24.125+0000] {processor.py:186} INFO - Started process (PID=4729) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:43:24.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:43:24.131+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:43:24.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:43:24.471+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:43:24.497+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:43:24.497+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:43:24.525+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:43:24.524+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:43:24.547+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.434 seconds
+[2025-03-28T16:43:54.658+0000] {processor.py:186} INFO - Started process (PID=4743) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:43:54.660+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:43:54.662+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:43:54.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:43:55.041+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:43:55.082+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:43:55.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:43:55.118+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:43:55.118+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:43:55.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.497 seconds
+[2025-03-28T16:44:25.258+0000] {processor.py:186} INFO - Started process (PID=4757) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:44:25.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:44:25.262+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:44:25.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:44:25.592+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:44:25.615+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:44:25.614+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:44:25.636+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:44:25.636+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:44:25.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.410 seconds
+[2025-03-28T16:44:56.095+0000] {processor.py:186} INFO - Started process (PID=4771) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:44:56.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:44:56.100+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:44:56.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:44:56.512+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:44:56.538+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:44:56.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:44:56.561+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:44:56.561+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:44:56.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.494 seconds
+[2025-03-28T16:45:26.957+0000] {processor.py:186} INFO - Started process (PID=4785) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:45:26.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:45:26.960+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:45:26.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:45:27.292+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:45:27.317+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:45:27.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:45:27.341+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:45:27.341+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:45:27.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.411 seconds
+[2025-03-28T16:45:57.487+0000] {processor.py:186} INFO - Started process (PID=4800) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:45:57.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:45:57.491+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:45:57.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:45:57.805+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:45:57.833+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:45:57.833+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:45:57.859+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:45:57.859+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:45:57.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.401 seconds
+[2025-03-28T16:46:27.951+0000] {processor.py:186} INFO - Started process (PID=4814) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:46:27.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:46:27.954+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:46:27.953+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:46:28.304+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:46:28.330+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:46:28.329+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:46:28.352+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:46:28.352+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:46:28.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.432 seconds
+[2025-03-28T16:46:59.245+0000] {processor.py:186} INFO - Started process (PID=4828) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:46:59.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:46:59.249+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:46:59.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:46:59.586+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:46:59.609+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:46:59.608+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:46:59.635+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:46:59.634+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:46:59.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.419 seconds
+[2025-03-28T16:47:30.063+0000] {processor.py:186} INFO - Started process (PID=4842) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:47:30.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:47:30.066+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:47:30.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:47:30.385+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:47:30.414+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:47:30.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:47:30.439+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:47:30.439+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:47:30.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.410 seconds
+[2025-03-28T16:48:00.757+0000] {processor.py:186} INFO - Started process (PID=4856) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:48:00.759+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:48:00.762+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:48:00.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:48:01.146+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:48:01.171+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:48:01.171+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:48:01.196+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:48:01.196+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:48:01.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.470 seconds
+[2025-03-28T16:48:31.513+0000] {processor.py:186} INFO - Started process (PID=4870) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:48:31.515+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:48:31.517+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:48:31.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:48:31.945+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:48:31.973+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:48:31.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:48:31.998+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:48:31.998+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:48:32.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.519 seconds
+[2025-03-28T16:49:02.180+0000] {processor.py:186} INFO - Started process (PID=4884) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:49:02.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:49:02.183+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:49:02.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:49:02.521+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:49:02.549+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:49:02.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:49:02.574+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:49:02.574+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:49:02.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.420 seconds
+[2025-03-28T16:49:32.721+0000] {processor.py:186} INFO - Started process (PID=4898) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:49:32.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:49:32.725+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:49:32.724+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:49:33.082+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:49:33.113+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:49:33.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:49:33.148+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:49:33.148+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:49:33.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.484 seconds
+[2025-03-28T16:50:03.781+0000] {processor.py:186} INFO - Started process (PID=4912) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:50:03.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:50:03.785+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:50:03.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:50:04.080+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:50:04.104+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:50:04.103+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:50:04.131+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:50:04.131+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:50:04.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.379 seconds
+[2025-03-28T16:50:34.693+0000] {processor.py:186} INFO - Started process (PID=4926) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:50:34.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:50:34.698+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:50:34.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:50:35.036+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:50:35.064+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:50:35.063+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:50:35.097+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:50:35.096+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:50:35.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.437 seconds
+[2025-03-28T16:51:05.562+0000] {processor.py:186} INFO - Started process (PID=4940) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:51:05.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:51:05.567+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:51:05.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:51:05.996+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:51:06.029+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:51:06.028+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:51:06.055+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:51:06.054+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:51:06.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.535 seconds
+[2025-03-28T16:51:37.053+0000] {processor.py:186} INFO - Started process (PID=4954) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:51:37.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:51:37.056+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:51:37.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:51:37.417+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:51:37.445+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:51:37.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:51:37.468+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:51:37.468+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:51:37.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.448 seconds
+[2025-03-28T16:52:07.688+0000] {processor.py:186} INFO - Started process (PID=4968) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:52:07.689+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:52:07.692+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:52:07.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:52:08.015+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:52:08.041+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:52:08.040+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:52:08.065+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:52:08.065+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:52:08.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.404 seconds
+[2025-03-28T16:52:38.405+0000] {processor.py:186} INFO - Started process (PID=4982) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:52:38.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:52:38.409+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:52:38.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:52:38.736+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:52:38.758+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:52:38.758+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:52:38.781+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:52:38.780+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:52:38.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.405 seconds
+[2025-03-28T16:53:09.201+0000] {processor.py:186} INFO - Started process (PID=4996) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:53:09.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:53:09.206+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:53:09.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:53:09.546+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:53:09.575+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:53:09.574+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:53:09.606+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:53:09.606+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:53:09.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.436 seconds
+[2025-03-28T16:53:39.908+0000] {processor.py:186} INFO - Started process (PID=5010) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:53:39.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:53:39.912+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:53:39.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:53:40.239+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:53:40.291+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:53:40.290+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:53:40.395+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:53:40.395+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:53:40.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.533 seconds
+[2025-03-28T16:54:10.764+0000] {processor.py:186} INFO - Started process (PID=5030) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:54:10.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:54:10.770+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:54:10.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:54:11.189+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:54:11.214+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:54:11.214+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:54:11.237+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:54:11.237+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:54:11.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.501 seconds
+[2025-03-28T16:54:41.741+0000] {processor.py:186} INFO - Started process (PID=5044) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:54:41.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:54:41.744+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:54:41.744+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:54:42.067+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:54:42.096+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:54:42.095+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:54:42.129+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:54:42.129+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:54:42.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.419 seconds
+[2025-03-28T16:55:12.535+0000] {processor.py:186} INFO - Started process (PID=5058) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:55:12.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:55:12.540+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:55:12.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:55:12.938+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:55:12.968+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:55:12.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:55:12.995+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:55:12.995+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:55:13.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.496 seconds
+[2025-03-28T16:55:43.715+0000] {processor.py:186} INFO - Started process (PID=5072) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:55:43.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:55:43.718+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:55:43.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:55:44.036+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:55:44.065+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:55:44.064+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:55:44.090+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:55:44.090+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:55:44.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.399 seconds
+[2025-03-28T16:56:14.461+0000] {processor.py:186} INFO - Started process (PID=5086) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:56:14.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:56:14.466+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:56:14.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:56:14.778+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:56:14.806+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:56:14.806+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:56:14.829+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:56:14.829+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:56:14.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.424 seconds
+[2025-03-28T16:56:45.552+0000] {processor.py:186} INFO - Started process (PID=5100) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:56:45.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:56:45.555+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:56:45.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:56:46.081+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:56:46.106+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:56:46.106+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:56:46.140+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:56:46.140+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:56:46.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.664 seconds
+[2025-03-28T16:57:16.576+0000] {processor.py:186} INFO - Started process (PID=5114) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:57:16.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:57:16.579+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:57:16.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:57:16.900+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:57:16.929+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:57:16.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:57:16.952+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:57:16.952+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:57:16.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.402 seconds
+[2025-03-28T16:57:47.331+0000] {processor.py:186} INFO - Started process (PID=5128) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:57:47.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:57:47.333+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:57:47.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:57:47.693+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:57:47.721+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:57:47.720+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:57:47.746+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:57:47.746+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:57:47.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.448 seconds
+[2025-03-28T16:58:18.122+0000] {processor.py:186} INFO - Started process (PID=5143) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:58:18.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:58:18.127+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:58:18.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:58:18.489+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:58:18.516+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:58:18.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:58:18.543+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:58:18.543+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:58:18.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.457 seconds
+[2025-03-28T16:58:49.103+0000] {processor.py:186} INFO - Started process (PID=5157) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:58:49.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:58:49.108+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:58:49.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:58:49.594+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:58:49.619+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:58:49.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:58:49.647+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:58:49.647+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:58:49.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.583 seconds
+[2025-03-28T16:59:20.049+0000] {processor.py:186} INFO - Started process (PID=5171) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:59:20.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:59:20.053+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:59:20.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:59:20.354+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:59:20.380+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:59:20.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:59:20.401+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:59:20.400+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:59:20.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.380 seconds
+[2025-03-28T16:59:50.725+0000] {processor.py:186} INFO - Started process (PID=5185) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:59:50.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T16:59:50.730+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:59:50.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:59:51.045+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T16:59:51.070+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:59:51.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T16:59:51.090+0000] {logging_mixin.py:190} INFO - [2025-03-28T16:59:51.090+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T16:59:51.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.394 seconds
+[2025-03-28T17:00:21.705+0000] {processor.py:186} INFO - Started process (PID=5199) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:00:21.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:00:21.709+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:00:21.709+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:00:22.009+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:00:22.032+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:00:22.031+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:00:22.055+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:00:22.054+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:00:22.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.380 seconds
+[2025-03-28T17:00:52.429+0000] {processor.py:186} INFO - Started process (PID=5213) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:00:52.431+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:00:52.434+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:00:52.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:00:52.814+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:00:52.840+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:00:52.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:00:52.864+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:00:52.864+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:00:52.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.465 seconds
+[2025-03-28T17:01:23.634+0000] {processor.py:186} INFO - Started process (PID=5227) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:01:23.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:01:23.639+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:01:23.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:01:23.984+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:01:24.012+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:01:24.011+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:01:24.041+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:01:24.041+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:01:24.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.445 seconds
+[2025-03-28T17:01:54.890+0000] {processor.py:186} INFO - Started process (PID=5241) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:01:54.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:01:54.906+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:01:54.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:01:55.330+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:01:55.357+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:01:55.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:01:55.379+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:01:55.379+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:01:55.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.587 seconds
+[2025-03-28T17:02:25.943+0000] {processor.py:186} INFO - Started process (PID=5255) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:02:25.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:02:25.947+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:02:25.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:02:26.324+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:02:26.345+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:02:26.345+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:02:26.367+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:02:26.367+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:02:26.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.450 seconds
+[2025-03-28T17:02:57.016+0000] {processor.py:186} INFO - Started process (PID=5269) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:02:57.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:02:57.020+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:02:57.019+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:02:57.380+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:02:57.417+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:02:57.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:02:57.451+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:02:57.451+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:02:57.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.475 seconds
+[2025-03-28T17:03:27.790+0000] {processor.py:186} INFO - Started process (PID=5283) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:03:27.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:03:27.793+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:03:27.793+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:03:28.099+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:03:28.126+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:03:28.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:03:28.150+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:03:28.150+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:03:28.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.389 seconds
+[2025-03-28T17:03:59.042+0000] {processor.py:186} INFO - Started process (PID=5298) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:03:59.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:03:59.044+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:03:59.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:03:59.341+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:03:59.366+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:03:59.366+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:03:59.393+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:03:59.393+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:03:59.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.395 seconds
+[2025-03-28T17:04:30.247+0000] {processor.py:186} INFO - Started process (PID=5313) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:04:30.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:04:30.251+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:04:30.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:04:30.578+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:04:30.603+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:04:30.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:04:30.628+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:04:30.628+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:04:30.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.413 seconds
+[2025-03-28T17:05:01.513+0000] {processor.py:186} INFO - Started process (PID=5327) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:05:01.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:05:01.516+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:05:01.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:05:01.812+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:05:01.843+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:05:01.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:05:01.877+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:05:01.877+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:05:01.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.402 seconds
+[2025-03-28T17:05:32.845+0000] {processor.py:186} INFO - Started process (PID=5341) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:05:32.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:05:32.848+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:05:32.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:05:33.166+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:05:33.191+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:05:33.190+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:05:33.216+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:05:33.215+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:05:33.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.402 seconds
+[2025-03-28T17:06:03.324+0000] {processor.py:186} INFO - Started process (PID=5355) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:06:03.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:06:03.326+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:06:03.326+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:06:03.695+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:06:03.720+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:06:03.720+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:06:03.742+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:06:03.742+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:06:03.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.443 seconds
+[2025-03-28T17:06:34.589+0000] {processor.py:186} INFO - Started process (PID=5369) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:06:34.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:06:34.593+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:06:34.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:06:34.929+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:06:34.952+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:06:34.952+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:06:34.974+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:06:34.974+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:06:35.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.421 seconds
+[2025-03-28T17:07:05.395+0000] {processor.py:186} INFO - Started process (PID=5383) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:07:05.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:07:05.398+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:07:05.398+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:07:05.979+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:07:06.019+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:07:06.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:07:06.063+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:07:06.063+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:07:06.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.711 seconds
+[2025-03-28T17:07:36.941+0000] {processor.py:186} INFO - Started process (PID=5397) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:07:36.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:07:36.946+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:07:36.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:07:37.242+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:07:37.264+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:07:37.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:07:37.286+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:07:37.286+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:07:37.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.373 seconds
+[2025-03-28T17:08:07.838+0000] {processor.py:186} INFO - Started process (PID=5411) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:08:07.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:08:07.841+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:08:07.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:08:08.138+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:08:08.160+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:08:08.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:08:08.181+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:08:08.181+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:08:08.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.371 seconds
+[2025-03-28T17:08:38.554+0000] {processor.py:186} INFO - Started process (PID=5425) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:08:38.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:08:38.558+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:08:38.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:08:38.862+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:08:38.885+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:08:38.884+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:08:38.907+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:08:38.907+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:08:38.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.382 seconds
+[2025-03-28T17:09:09.704+0000] {processor.py:186} INFO - Started process (PID=5439) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:09:09.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:09:09.706+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:09:09.706+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:09:10.111+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:09:10.174+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:09:10.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:09:10.210+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:09:10.209+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:09:10.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.530 seconds
+[2025-03-28T17:09:41.088+0000] {processor.py:186} INFO - Started process (PID=5453) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:09:41.089+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:09:41.090+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:09:41.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:09:41.390+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:09:41.417+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:09:41.416+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:09:41.441+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:09:41.441+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:09:41.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.377 seconds
+[2025-03-28T17:10:11.961+0000] {processor.py:186} INFO - Started process (PID=5475) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:10:11.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:10:11.965+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:10:11.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:10:12.296+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:10:12.319+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:10:12.319+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:10:12.344+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:10:12.343+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:10:12.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.412 seconds
+[2025-03-28T17:10:42.562+0000] {processor.py:186} INFO - Started process (PID=5489) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:10:42.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:10:42.566+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:10:42.565+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:10:42.955+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:10:42.980+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:10:42.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:10:43.002+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:10:43.001+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:10:43.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.490 seconds
+[2025-03-28T17:11:13.268+0000] {processor.py:186} INFO - Started process (PID=5501) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:11:13.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:11:13.271+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:11:13.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:11:13.613+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:11:13.638+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:11:13.637+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:11:13.663+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:11:13.663+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:11:13.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.418 seconds
+[2025-03-28T17:11:43.769+0000] {processor.py:186} INFO - Started process (PID=5515) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:11:43.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:11:43.776+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:11:43.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:11:44.243+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:11:44.278+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:11:44.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:11:44.316+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:11:44.315+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:11:44.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.574 seconds
+[2025-03-28T17:12:14.720+0000] {processor.py:186} INFO - Started process (PID=5529) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:12:14.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:12:14.725+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:12:14.724+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:12:15.078+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:12:15.104+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:12:15.104+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:12:15.141+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:12:15.140+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:12:15.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.465 seconds
+[2025-03-28T17:12:45.734+0000] {processor.py:186} INFO - Started process (PID=5543) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:12:45.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:12:45.739+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:12:45.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:12:46.234+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:12:46.266+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:12:46.265+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:12:46.290+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:12:46.290+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:12:46.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.603 seconds
+[2025-03-28T17:13:16.654+0000] {processor.py:186} INFO - Started process (PID=5557) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:13:16.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:13:16.658+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:13:16.657+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:13:16.982+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:13:17.005+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:13:17.005+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:13:17.028+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:13:17.027+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:13:17.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.405 seconds
+[2025-03-28T17:13:47.243+0000] {processor.py:186} INFO - Started process (PID=5571) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:13:47.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:13:47.247+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:13:47.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:13:47.543+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:13:47.565+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:13:47.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:13:47.587+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:13:47.587+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:13:47.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.375 seconds
+[2025-03-28T17:14:17.692+0000] {processor.py:186} INFO - Started process (PID=5586) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:14:17.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:14:17.696+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:14:17.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:14:18.059+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:14:18.097+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:14:18.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:14:18.135+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:14:18.135+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:14:18.170+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.486 seconds
+[2025-03-28T17:14:48.364+0000] {processor.py:186} INFO - Started process (PID=5599) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:14:48.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:14:48.367+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:14:48.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:14:48.697+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:14:48.738+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:14:48.737+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:14:48.763+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:14:48.762+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:14:48.796+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.439 seconds
+[2025-03-28T17:15:19.764+0000] {processor.py:186} INFO - Started process (PID=5614) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:15:19.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:15:19.769+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:15:19.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:15:20.211+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:15:20.253+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:15:20.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:15:20.290+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:15:20.290+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:15:20.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.566 seconds
+[2025-03-28T17:15:51.144+0000] {processor.py:186} INFO - Started process (PID=5628) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:15:51.146+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:15:51.149+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:15:51.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:15:51.473+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:15:51.499+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:15:51.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:15:51.522+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:15:51.522+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:15:51.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.404 seconds
+[2025-03-28T17:16:21.703+0000] {processor.py:186} INFO - Started process (PID=5642) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:16:21.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:16:21.708+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:16:21.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:16:22.025+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:16:22.051+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:16:22.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:16:22.075+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:16:22.074+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:16:22.094+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.402 seconds
+[2025-03-28T17:16:52.273+0000] {processor.py:186} INFO - Started process (PID=5656) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:16:52.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:16:52.277+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:16:52.276+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:16:52.613+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:16:52.640+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:16:52.640+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:16:52.666+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:16:52.665+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:16:52.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.429 seconds
+[2025-03-28T17:17:23.573+0000] {processor.py:186} INFO - Started process (PID=5670) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:17:23.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:17:23.575+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:17:23.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:17:23.901+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:17:23.929+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:17:23.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:17:23.952+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:17:23.952+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:17:23.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.404 seconds
+[2025-03-28T17:17:54.130+0000] {processor.py:186} INFO - Started process (PID=5684) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:17:54.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:17:54.133+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:17:54.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:17:54.494+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:17:54.517+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:17:54.517+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:17:54.539+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:17:54.539+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:17:54.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.483 seconds
+[2025-03-28T17:18:25.297+0000] {processor.py:186} INFO - Started process (PID=5700) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:18:25.299+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:18:25.301+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:18:25.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:18:25.776+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:18:25.811+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:18:25.811+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:18:25.843+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:18:25.843+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:18:25.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.584 seconds
+[2025-03-28T17:18:56.047+0000] {processor.py:186} INFO - Started process (PID=5714) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:18:56.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:18:56.050+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:18:56.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:18:56.415+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:18:56.456+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:18:56.455+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:18:56.487+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:18:56.486+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:18:56.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.466 seconds
+[2025-03-28T17:19:27.142+0000] {processor.py:186} INFO - Started process (PID=5728) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:19:27.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:19:27.146+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:19:27.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:19:27.585+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:19:27.611+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:19:27.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:19:27.642+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:19:27.641+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:19:27.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.544 seconds
+[2025-03-28T17:19:57.833+0000] {processor.py:186} INFO - Started process (PID=5742) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:19:57.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:19:57.837+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:19:57.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:19:58.247+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:19:58.272+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:19:58.271+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:19:58.301+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:19:58.300+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:19:58.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.508 seconds
+[2025-03-28T17:20:28.498+0000] {processor.py:186} INFO - Started process (PID=5756) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:20:28.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:20:28.501+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:20:28.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:20:28.836+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:20:28.859+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:20:28.859+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:20:28.881+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:20:28.881+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:20:28.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.412 seconds
+[2025-03-28T17:20:59.133+0000] {processor.py:186} INFO - Started process (PID=5768) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:20:59.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:20:59.137+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:20:59.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:20:59.447+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:20:59.472+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:20:59.472+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:20:59.496+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:20:59.496+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:20:59.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.393 seconds
+[2025-03-28T17:21:30.354+0000] {processor.py:186} INFO - Started process (PID=5782) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:21:30.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:21:30.357+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:21:30.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:21:30.695+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:21:30.724+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:21:30.723+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:21:30.746+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:21:30.746+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:21:30.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.421 seconds
+[2025-03-28T17:22:00.957+0000] {processor.py:186} INFO - Started process (PID=5796) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:22:00.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:22:00.960+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:22:00.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:22:01.279+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:22:01.304+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:22:01.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:22:01.329+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:22:01.329+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:22:01.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.401 seconds
+[2025-03-28T17:22:32.195+0000] {processor.py:186} INFO - Started process (PID=5810) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:22:32.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:22:32.199+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:22:32.198+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:22:32.521+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:22:32.546+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:22:32.545+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:22:32.567+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:22:32.567+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:22:32.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.400 seconds
+[2025-03-28T17:23:02.697+0000] {processor.py:186} INFO - Started process (PID=5824) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:23:02.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:23:02.700+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:23:02.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:23:03.007+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:23:03.031+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:23:03.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:23:03.057+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:23:03.057+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:23:03.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.386 seconds
+[2025-03-28T17:23:33.244+0000] {processor.py:186} INFO - Started process (PID=5838) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:23:33.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:23:33.248+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:23:33.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:23:33.647+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:23:33.676+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:23:33.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:23:33.704+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:23:33.704+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:23:33.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.489 seconds
+[2025-03-28T17:24:04.337+0000] {processor.py:186} INFO - Started process (PID=5852) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:24:04.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:24:04.340+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:24:04.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:24:04.785+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:24:04.812+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:24:04.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:24:04.837+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:24:04.837+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:24:04.858+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.530 seconds
+[2025-03-28T17:24:35.681+0000] {processor.py:186} INFO - Started process (PID=5866) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:24:35.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:24:35.685+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:24:35.685+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:24:36.007+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:24:36.066+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:24:36.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:24:36.100+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:24:36.099+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:24:36.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.482 seconds
+[2025-03-28T17:25:06.409+0000] {processor.py:186} INFO - Started process (PID=5880) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:25:06.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:25:06.411+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:25:06.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:25:06.725+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:25:06.749+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:25:06.749+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:25:06.773+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:25:06.773+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:25:06.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.390 seconds
+[2025-03-28T17:25:37.108+0000] {processor.py:186} INFO - Started process (PID=5894) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:25:37.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:25:37.111+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:25:37.110+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:25:37.462+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:25:37.492+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:25:37.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:25:37.516+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:25:37.515+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:25:37.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.437 seconds
+[2025-03-28T17:26:08.201+0000] {processor.py:186} INFO - Started process (PID=5908) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:26:08.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:26:08.205+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:26:08.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:26:08.584+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:26:08.608+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:26:08.608+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:26:08.633+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:26:08.632+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:26:08.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.459 seconds
+[2025-03-28T17:26:38.915+0000] {processor.py:186} INFO - Started process (PID=5922) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:26:38.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:26:38.925+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:26:38.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:26:39.424+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:26:39.449+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:26:39.448+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:26:39.470+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:26:39.470+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:26:39.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.584 seconds
+[2025-03-28T17:27:09.727+0000] {processor.py:186} INFO - Started process (PID=5936) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:27:09.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:27:09.730+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:27:09.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:27:10.112+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:27:10.141+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:27:10.140+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:27:10.170+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:27:10.170+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:27:10.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.472 seconds
+[2025-03-28T17:27:40.590+0000] {processor.py:186} INFO - Started process (PID=5951) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:27:40.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:27:40.593+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:27:40.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:27:40.915+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:27:40.938+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:27:40.937+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:27:40.961+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:27:40.961+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:27:40.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.398 seconds
+[2025-03-28T17:28:11.145+0000] {processor.py:186} INFO - Started process (PID=5965) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:28:11.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:28:11.150+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:28:11.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:28:11.503+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:28:11.526+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:28:11.526+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:28:11.551+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:28:11.551+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:28:11.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.433 seconds
+[2025-03-28T17:28:41.776+0000] {processor.py:186} INFO - Started process (PID=5979) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:28:41.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:28:41.786+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:28:41.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:28:42.114+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:28:42.151+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:28:42.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:28:42.184+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:28:42.183+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:28:42.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.436 seconds
+[2025-03-28T17:29:12.570+0000] {processor.py:186} INFO - Started process (PID=5993) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:29:12.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:29:12.576+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:29:12.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:29:12.948+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:29:12.979+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:29:12.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:29:13.006+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:29:13.006+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:29:13.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.466 seconds
+[2025-03-28T17:29:43.584+0000] {processor.py:186} INFO - Started process (PID=6013) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:29:43.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:29:43.588+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:29:43.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:29:43.909+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:29:43.934+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:29:43.934+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:29:43.957+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:29:43.957+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:29:43.975+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.402 seconds
+[2025-03-28T17:30:14.373+0000] {processor.py:186} INFO - Started process (PID=6027) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:30:14.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:30:14.375+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:30:14.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:30:14.677+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:30:14.702+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:30:14.702+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:30:14.725+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:30:14.725+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:30:14.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.375 seconds
+[2025-03-28T17:30:45.414+0000] {processor.py:186} INFO - Started process (PID=6043) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:30:45.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:30:45.417+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:30:45.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:30:45.886+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:30:45.921+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:30:45.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:30:45.963+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:30:45.962+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:30:45.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.597 seconds
+[2025-03-28T17:31:16.344+0000] {processor.py:186} INFO - Started process (PID=6057) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:31:16.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:31:16.347+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:31:16.346+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:31:16.832+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:31:16.860+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:31:16.859+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:31:16.884+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:31:16.884+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:31:16.908+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.572 seconds
+[2025-03-28T17:31:47.356+0000] {processor.py:186} INFO - Started process (PID=6071) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:31:47.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:31:47.359+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:31:47.358+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:31:47.675+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:31:47.715+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:31:47.714+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:31:47.750+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:31:47.750+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:31:47.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.431 seconds
+[2025-03-28T17:32:17.981+0000] {processor.py:186} INFO - Started process (PID=6083) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:32:17.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:32:17.985+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:32:17.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:32:18.330+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:32:18.363+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:32:18.363+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:32:18.394+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:32:18.394+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:32:18.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.454 seconds
+[2025-03-28T17:32:48.711+0000] {processor.py:186} INFO - Started process (PID=6097) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:32:48.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:32:48.715+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:32:48.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:32:49.069+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:32:49.096+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:32:49.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:32:49.124+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:32:49.124+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:32:49.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.446 seconds
+[2025-03-28T17:33:19.511+0000] {processor.py:186} INFO - Started process (PID=6112) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:33:19.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:33:19.514+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:33:19.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:33:19.849+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:33:19.876+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:33:19.876+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:33:19.906+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:33:19.906+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:33:19.928+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.428 seconds
+[2025-03-28T17:33:50.223+0000] {processor.py:186} INFO - Started process (PID=6126) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:33:50.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:33:50.229+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:33:50.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:33:50.598+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:33:50.643+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:33:50.642+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:33:50.671+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:33:50.671+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:33:50.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.480 seconds
+[2025-03-28T17:34:21.075+0000] {processor.py:186} INFO - Started process (PID=6140) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:34:21.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:34:21.079+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:34:21.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:34:21.426+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:34:21.468+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:34:21.467+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:34:21.494+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:34:21.494+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:34:21.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.453 seconds
+[2025-03-28T17:34:52.037+0000] {processor.py:186} INFO - Started process (PID=6154) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:34:52.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:34:52.039+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:34:52.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:34:52.381+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:34:52.406+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:34:52.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:34:52.430+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:34:52.430+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:34:52.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.423 seconds
+[2025-03-28T17:35:22.983+0000] {processor.py:186} INFO - Started process (PID=6168) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:35:22.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:35:22.988+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:35:22.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:35:23.362+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:35:23.390+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:35:23.390+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:35:23.413+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:35:23.413+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:35:23.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.457 seconds
+[2025-03-28T17:35:53.852+0000] {processor.py:186} INFO - Started process (PID=6182) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:35:53.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:35:53.855+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:35:53.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:35:54.175+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:35:54.197+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:35:54.197+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:35:54.219+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:35:54.218+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:35:54.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.392 seconds
+[2025-03-28T17:36:24.628+0000] {processor.py:186} INFO - Started process (PID=6196) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:36:24.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:36:24.631+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:36:24.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:36:24.970+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:36:25.003+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:36:25.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:36:25.024+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:36:25.024+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:36:25.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.421 seconds
+[2025-03-28T17:36:55.511+0000] {processor.py:186} INFO - Started process (PID=6210) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:36:55.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:36:55.516+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:36:55.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:36:55.856+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:36:55.882+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:36:55.882+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:36:55.907+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:36:55.907+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:36:55.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.421 seconds
+[2025-03-28T17:37:26.292+0000] {processor.py:186} INFO - Started process (PID=6224) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:37:26.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:37:26.295+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:37:26.295+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:37:26.631+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:37:26.657+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:37:26.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:37:26.679+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:37:26.679+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:37:26.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.414 seconds
+[2025-03-28T17:37:57.058+0000] {processor.py:186} INFO - Started process (PID=6238) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:37:57.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:37:57.063+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:37:57.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:37:57.376+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:37:57.401+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:37:57.401+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:37:57.423+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:37:57.423+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:37:57.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.391 seconds
+[2025-03-28T17:38:27.800+0000] {processor.py:186} INFO - Started process (PID=6252) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:38:27.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:38:27.804+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:38:27.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:38:28.123+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:38:28.149+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:38:28.149+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:38:28.170+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:38:28.170+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:38:28.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.393 seconds
+[2025-03-28T17:38:58.859+0000] {processor.py:186} INFO - Started process (PID=6267) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:38:58.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:38:58.862+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:38:58.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:38:59.365+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:38:59.392+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:38:59.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:38:59.423+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:38:59.423+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:38:59.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.602 seconds
+[2025-03-28T17:39:29.636+0000] {processor.py:186} INFO - Started process (PID=6281) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:39:29.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:39:29.641+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:39:29.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:39:30.013+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:39:30.036+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:39:30.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:39:30.063+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:39:30.062+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:39:30.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.469 seconds
+[2025-03-28T17:40:00.870+0000] {processor.py:186} INFO - Started process (PID=6295) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:40:00.872+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:40:00.877+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:40:00.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:40:01.261+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:40:01.284+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:40:01.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:40:01.307+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:40:01.307+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:40:01.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.462 seconds
+[2025-03-28T17:40:32.034+0000] {processor.py:186} INFO - Started process (PID=6309) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:40:32.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:40:32.036+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:40:32.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:40:32.372+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:40:32.397+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:40:32.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:40:32.420+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:40:32.420+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:40:32.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.409 seconds
+[2025-03-28T17:41:02.558+0000] {processor.py:186} INFO - Started process (PID=6323) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:41:02.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:41:02.562+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:41:02.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:41:02.936+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:41:02.961+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:41:02.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:41:02.985+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:41:02.985+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:41:03.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.456 seconds
+[2025-03-28T17:41:33.762+0000] {processor.py:186} INFO - Started process (PID=6337) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:41:33.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:41:33.766+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:41:33.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:41:34.125+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:41:34.151+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:41:34.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:41:34.171+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:41:34.171+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:41:34.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.439 seconds
+[2025-03-28T17:42:04.291+0000] {processor.py:186} INFO - Started process (PID=6351) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:42:04.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:42:04.294+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:42:04.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:42:04.624+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:42:04.651+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:42:04.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:42:04.676+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:42:04.675+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:42:04.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.411 seconds
+[2025-03-28T17:42:35.113+0000] {processor.py:186} INFO - Started process (PID=6365) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:42:35.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:42:35.118+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:42:35.117+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:42:35.473+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:42:35.496+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:42:35.496+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:42:35.517+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:42:35.517+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:42:35.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.432 seconds
+[2025-03-28T17:43:05.786+0000] {processor.py:186} INFO - Started process (PID=6379) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:43:05.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:43:05.790+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:43:05.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:43:06.118+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:43:06.162+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:43:06.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:43:06.190+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:43:06.190+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:43:06.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.432 seconds
+[2025-03-28T17:43:36.391+0000] {processor.py:186} INFO - Started process (PID=6393) to work on /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:43:36.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exercise/data_processing_dag.py for tasks to queue
+[2025-03-28T17:43:36.394+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:43:36.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:43:36.732+0000] {processor.py:925} INFO - DAG(s) 'iris_etl_dag' retrieved from /opt/airflow/dags/Exercise/data_processing_dag.py
+[2025-03-28T17:43:36.757+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:43:36.757+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:43:36.782+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:43:36.782+0000] {dag.py:4180} INFO - Setting next_dagrun for iris_etl_dag to 2025-03-28 00:00:00+00:00, run_after=2025-03-29 00:00:00+00:00
+[2025-03-28T17:43:36.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exercise/data_processing_dag.py took 0.419 seconds
