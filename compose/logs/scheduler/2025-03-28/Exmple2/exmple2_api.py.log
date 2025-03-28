@@ -1308,3 +1308,234 @@
 [2025-03-28T17:43:35.166+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:43:35.165+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-28T17:43:35.220+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:43:35.219+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
 [2025-03-28T17:43:35.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.628 seconds
+[2025-03-28T17:44:05.534+0000] {processor.py:186} INFO - Started process (PID=6405) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:44:05.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:44:05.540+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:44:05.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:44:05.959+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:44:05.994+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:44:05.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:44:06.020+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:44:06.020+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:44:06.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.518 seconds
+[2025-03-28T17:44:36.671+0000] {processor.py:186} INFO - Started process (PID=6419) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:44:36.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:44:36.676+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:44:36.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:44:37.031+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:44:37.056+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:44:37.056+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:44:37.095+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:44:37.094+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:44:37.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.482 seconds
+[2025-03-28T17:45:07.264+0000] {processor.py:186} INFO - Started process (PID=6433) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:45:07.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:45:07.269+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:45:07.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:45:07.719+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:45:07.754+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:45:07.754+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:45:07.780+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:45:07.780+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:45:07.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.549 seconds
+[2025-03-28T17:45:38.848+0000] {processor.py:186} INFO - Started process (PID=6447) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:45:38.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:45:38.851+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:45:38.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:45:39.153+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:45:39.176+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:45:39.176+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:45:39.198+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:45:39.198+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:45:39.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.375 seconds
+[2025-03-28T17:46:09.574+0000] {processor.py:186} INFO - Started process (PID=6461) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:46:09.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:46:09.576+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:46:09.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:46:09.862+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:46:09.892+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:46:09.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:46:09.921+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:46:09.920+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:46:09.954+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.385 seconds
+[2025-03-28T17:46:40.290+0000] {processor.py:186} INFO - Started process (PID=6475) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:46:40.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:46:40.294+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:46:40.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:46:40.605+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:46:40.632+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:46:40.631+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:46:40.655+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:46:40.654+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:46:40.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.392 seconds
+[2025-03-28T17:47:11.584+0000] {processor.py:186} INFO - Started process (PID=6489) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:47:11.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:47:11.587+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:47:11.587+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:47:11.874+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:47:11.898+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:47:11.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:47:11.921+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:47:11.921+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:47:11.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.360 seconds
+[2025-03-28T17:47:42.030+0000] {processor.py:186} INFO - Started process (PID=6503) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:47:42.031+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:47:42.033+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:47:42.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:47:42.327+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:47:42.351+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:47:42.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:47:42.377+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:47:42.377+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:47:42.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.375 seconds
+[2025-03-28T17:48:12.984+0000] {processor.py:186} INFO - Started process (PID=6517) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:48:12.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:48:12.987+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:48:12.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:48:13.286+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:48:13.311+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:48:13.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:48:13.334+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:48:13.334+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:48:13.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.376 seconds
+[2025-03-28T17:48:44.152+0000] {processor.py:186} INFO - Started process (PID=6531) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:48:44.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:48:44.154+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:48:44.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:48:44.484+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:48:44.510+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:48:44.509+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:48:44.532+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:48:44.532+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:48:44.550+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.405 seconds
+[2025-03-28T17:49:15.516+0000] {processor.py:186} INFO - Started process (PID=6551) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:49:15.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:49:15.519+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:49:15.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:49:15.863+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:49:15.889+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:49:15.889+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:49:15.914+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:49:15.914+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:49:15.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.431 seconds
+[2025-03-28T17:49:46.311+0000] {processor.py:186} INFO - Started process (PID=6565) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:49:46.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:49:46.317+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:49:46.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:49:46.750+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:49:46.779+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:49:46.779+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:49:46.808+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:49:46.808+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:49:46.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.540 seconds
+[2025-03-28T17:50:17.251+0000] {processor.py:186} INFO - Started process (PID=6579) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:50:17.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:50:17.254+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:50:17.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:50:17.572+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:50:17.600+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:50:17.600+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:50:17.624+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:50:17.624+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:50:17.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.398 seconds
+[2025-03-28T17:50:47.892+0000] {processor.py:186} INFO - Started process (PID=6593) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:50:47.893+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:50:47.895+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:50:47.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:50:48.269+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:50:48.297+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:50:48.297+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:50:48.333+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:50:48.332+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:50:48.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.483 seconds
+[2025-03-28T17:51:18.930+0000] {processor.py:186} INFO - Started process (PID=6607) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:51:18.932+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:51:18.934+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:51:18.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:51:19.251+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:51:19.276+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:51:19.275+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:51:19.301+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:51:19.301+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:51:19.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.431 seconds
+[2025-03-28T17:51:49.680+0000] {processor.py:186} INFO - Started process (PID=6623) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:51:49.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:51:49.683+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:51:49.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:51:50.078+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:51:50.102+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:51:50.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:51:50.129+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:51:50.128+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:51:50.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.498 seconds
+[2025-03-28T17:52:20.518+0000] {processor.py:186} INFO - Started process (PID=6635) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:52:20.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:52:20.521+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:52:20.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:52:20.847+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:52:20.870+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:52:20.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:52:20.897+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:52:20.897+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:52:20.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.405 seconds
+[2025-03-28T17:52:51.215+0000] {processor.py:186} INFO - Started process (PID=6649) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:52:51.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:52:51.218+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:52:51.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:52:51.601+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:52:51.627+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:52:51.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:52:51.654+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:52:51.654+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:52:51.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.467 seconds
+[2025-03-28T17:53:22.152+0000] {processor.py:186} INFO - Started process (PID=6663) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:53:22.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:53:22.157+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:53:22.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:53:22.504+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:53:22.532+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:53:22.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:53:22.557+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:53:22.556+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:53:22.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.435 seconds
+[2025-03-28T17:53:53.371+0000] {processor.py:186} INFO - Started process (PID=6677) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:53:53.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:53:53.377+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:53:53.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:53:53.706+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:53:53.729+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:53:53.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:53:53.752+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:53:53.751+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:53:53.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.424 seconds
+[2025-03-28T17:54:24.263+0000] {processor.py:186} INFO - Started process (PID=6691) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:54:24.264+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:54:24.266+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:54:24.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:54:24.581+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:54:24.605+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:54:24.605+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:54:24.627+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:54:24.627+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:54:24.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.390 seconds
+[2025-03-28T17:54:54.782+0000] {processor.py:186} INFO - Started process (PID=6705) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:54:54.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:54:54.784+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:54:54.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:54:55.080+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:54:55.110+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:54:55.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:54:55.174+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:54:55.173+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:54:55.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.430 seconds
+[2025-03-28T17:55:25.906+0000] {processor.py:186} INFO - Started process (PID=6719) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:55:25.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:55:25.908+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:55:25.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:55:26.214+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:55:26.238+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:55:26.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:55:26.261+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:55:26.261+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:55:26.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.384 seconds
+[2025-03-28T17:55:57.036+0000] {processor.py:186} INFO - Started process (PID=6733) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:55:57.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:55:57.039+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:55:57.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:55:57.333+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:55:57.358+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:55:57.358+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:55:57.382+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:55:57.382+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:55:57.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.376 seconds
+[2025-03-28T17:56:28.416+0000] {processor.py:186} INFO - Started process (PID=6747) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:56:28.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:56:28.421+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:56:28.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:56:28.775+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:56:28.825+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:56:28.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:56:28.859+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:56:28.859+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:56:28.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.475 seconds
+[2025-03-28T17:56:59.224+0000] {processor.py:186} INFO - Started process (PID=6762) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:56:59.226+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:56:59.227+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:56:59.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:56:59.552+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:56:59.574+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:56:59.574+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:56:59.596+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:56:59.596+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:56:59.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.401 seconds
+[2025-03-28T17:57:29.815+0000] {processor.py:186} INFO - Started process (PID=6776) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:57:29.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:57:29.819+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:57:29.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:57:30.129+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:57:30.153+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:57:30.153+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:57:30.175+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:57:30.175+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:57:30.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.394 seconds
+[2025-03-28T17:58:00.283+0000] {processor.py:186} INFO - Started process (PID=6790) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:58:00.286+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:58:00.289+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:58:00.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:58:00.610+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:58:00.634+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:58:00.633+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:58:00.724+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:58:00.723+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:58:00.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.497 seconds
+[2025-03-28T17:58:31.010+0000] {processor.py:186} INFO - Started process (PID=6804) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:58:31.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:58:31.015+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:58:31.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:58:31.354+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:58:31.383+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:58:31.383+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:58:31.413+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:58:31.412+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:58:31.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.430 seconds
+[2025-03-28T17:59:02.453+0000] {processor.py:186} INFO - Started process (PID=6818) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:59:02.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:59:02.456+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:59:02.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:59:02.763+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:59:02.785+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:59:02.785+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:59:02.811+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:59:02.811+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:59:02.834+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.391 seconds
+[2025-03-28T17:59:33.203+0000] {processor.py:186} INFO - Started process (PID=6832) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:59:33.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T17:59:33.206+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:59:33.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:59:33.518+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T17:59:33.607+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:59:33.607+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T17:59:33.636+0000] {logging_mixin.py:190} INFO - [2025-03-28T17:59:33.636+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 16:00:00+00:00, run_after=2025-03-28 17:00:00+00:00
+[2025-03-28T17:59:33.697+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.505 seconds
+[2025-03-28T18:00:04.190+0000] {processor.py:186} INFO - Started process (PID=6846) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T18:00:04.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T18:00:04.196+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:00:04.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T18:00:04.605+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T18:00:04.636+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:00:04.636+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:00:04.663+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:00:04.662+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 17:00:00+00:00, run_after=2025-03-28 18:00:00+00:00
+[2025-03-28T18:00:04.697+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.519 seconds
+[2025-03-28T18:00:35.218+0000] {processor.py:186} INFO - Started process (PID=6860) to work on /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T18:00:35.219+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Exmple2/exmple2_api.py for tasks to queue
+[2025-03-28T18:00:35.221+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:00:35.220+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T18:00:35.566+0000] {processor.py:925} INFO - DAG(s) 'exmple_api' retrieved from /opt/airflow/dags/Exmple2/exmple2_api.py
+[2025-03-28T18:00:35.590+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:00:35.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:00:35.621+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:00:35.621+0000] {dag.py:4180} INFO - Setting next_dagrun for exmple_api to 2025-03-28 17:00:00+00:00, run_after=2025-03-28 18:00:00+00:00
+[2025-03-28T18:00:35.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Exmple2/exmple2_api.py took 0.427 seconds
